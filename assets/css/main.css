@@ -90,6 +90,17 @@ h6 {
   color: var(--accent-color);
 }
 
+.bhv:hover{
+  background-color: green;
+  color: white;
+}
+.bhv:hover>a{
+  color: white;
+}
+.sty{
+  background-color: white; 
+  border-color: green;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
