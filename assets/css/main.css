@@ -2137,3 +2137,25 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.weserve div::before{
+  content: attr(data-text);
+  position: absolute;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 100px;
+  transform: translateY(-120%);
+  opacity: 0;
+}
+.weserve div:hover::before{
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.weserve img{
+  opacity: 0.3;
+}
+.weserve img:hover{
+  opacity: 1;
+  cursor: pointer;
+}
